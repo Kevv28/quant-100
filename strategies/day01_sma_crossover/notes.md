@@ -1,0 +1,1 @@
+If the recent average price goes above the longer-term average price, it usually means price is starting to move up more consistently.
