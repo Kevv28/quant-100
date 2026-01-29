@@ -5,7 +5,7 @@ from utils.indicators import sma
 
 # Load historical price data
 df = load_price_data(
-    symbol="SBIN.NS",
+    symbol="ETERNAL.NS",
     start="2022-01-01"
 )
 
@@ -21,4 +21,3 @@ df.loc[df["sma_20"] > df["sma_50"], "signal"] = 1
 df.loc[df["sma_20"] < df["sma_50"], "signal"] = -1
 
 print(df[["close", "sma_20", "sma_50", "signal"]].tail(10))
-
