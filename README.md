@@ -17,6 +17,10 @@ rule-based quantitative trading strategies in 100 days.
   - Results
   - Failure analysis
 
+## Day 2 SMA 200
+
+
+
 ## Tech Stack
 - Python
 - pandas, numpy
