@@ -7,6 +7,7 @@ def load_price_data(
     start: str = "2018-01-01",
     end: str | None = None,
     interval: str = "1d"
+    max_date: str="id"
 ) -> pd.DataFrame:
 
     df = yf.download(
